@@ -1,0 +1,171 @@
+.appContainer{
+  width: 100%;
+  background-color: #bffcef;
+}
+
+.container{
+  max-width: 500px;
+  height: 100vh;
+  background-color: #bfecef;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.primaryBar{
+  width: 100%;
+  height: 50px;
+  background-color: #94b7b9;
+  box-sizing: border-box;
+  padding: 10px 15px 10px 15px;
+  font-size: 25px;
+}
+
+.secondaryBar{
+  width: 100%;
+  background-color: #a8c4c5;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.secondayBarCol{
+  width: 33.3%;
+  height: 35px;
+  text-align: center;
+}
+
+.counterContainer{
+  box-sizing: border-box;
+  height: 30px;
+  padding: 5px;
+  background-color: #b2d5d6;
+}
+
+.gameContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 135px);
+}
+.imageContainer{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  flex-direction: row;
+  overflow: hidden;
+}
+.imageWrapper{
+  position: absolute;
+  display: flex;
+}
+.singleImageDiv{
+  width: 300px;
+  height: 300px;
+}
+.imageContainer img{
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 10px solid #b3e7ea;
+}
+.imageCover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 999;
+}
+
+.buttonsContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+.button{
+  width: 100px;
+  height: 50px;
+  border: 0px;
+  border-radius: 5px;
+}
+.startButton{
+  width: 100%;
+  background-color: #d87f7f;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+.button span{
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+.rightButton{
+  background-color: #50bb50;
+}
+.wrongButton{
+  background-color: #e07777;
+}
+
+
+.popupContainer{
+  width: 100%;
+  height: 100vh;
+  background-color: #6f6044a8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.popupContentWrapper{
+  width: 90%;
+  height: 90vh;
+  background-color: #c7ffe8;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 30px 10px;
+}
+.resultScore{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3b3b3b;
+}
+.resultScoreHeading{
+  font-size: 35px;
+  font-weight: bold;
+}
+.resultScoreValue{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.playAgainContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.playAgainContainer button{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #c16464;
+  color: white;
+  font-weight: bolder;
+}

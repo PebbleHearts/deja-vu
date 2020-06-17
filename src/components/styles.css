@@ -1,0 +1,10 @@
+.counter{
+    width: 100%;
+    text-align: center;
+}
+.mins{
+    font-weight: bold;
+}
+.secs{
+    font-weight: bold;
+}
